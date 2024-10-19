@@ -33,6 +33,6 @@ export default ((opts?: Options) => {
     return null;
   }
 
-  Footer.css = style
+  // Footer.css = style
   return Footer
 }) satisfies QuartzComponentConstructor
