@@ -44,7 +44,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         const date = getDate(cfg, fileData)!
         const formattedDate = formatDate(date, cfg.locale)
         const dayName = date.toLocaleDateString(cfg.locale, { weekday: 'long' }) // Get day name
-        segments.push(`${formattedDate} (${dayName})`)
+        segments.push(`${dayName} ${formattedDate}`)
       }
 
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
