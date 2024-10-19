@@ -1,9 +1,9 @@
-----
--title: Welcome to My Blog!
-----
+---
+title: Welcome to My Blog!
+---
 
 <div style="text-align: justify;">
-Welcome to my blog, where I share my journey in web development! I’m <strong><a href="https://shoyeb.is-a.dev">Showyeab Ahmed</a></strong>, and here you'll find tips, tutorials, and insights to help you enhance your skills and create amazing websites. Whether you’re just starting out or looking to level up, there’s something for you!
+Welcome to my blog, where I share my journey in web development! I’m <strong><a href="https://shoyeb.is-a.dev/">Showyeab Ahmed</a></strong>, and here you'll find tips, tutorials, and insights to help you enhance your skills and create amazing websites. Whether you’re just starting out or looking to level up, there’s something for you!
 </div>
 
 

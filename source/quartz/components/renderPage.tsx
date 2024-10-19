@@ -227,14 +227,14 @@ export function renderPage(
                     <HeaderComponent {...componentData} />
                   ))}
                 </Header>
-                <div class="popover-hint">
+                <div class="`popover-hint`">
                   {beforeBody.map((BodyComponent) => (
                     <BodyComponent {...componentData} />
                   ))}
                 </div>
               </div>
               <Content {...componentData} />
-              <hr />
+              {/* <hr /> */}
               <div class="page-footer">
                 {afterBody.map((BodyComponent) => (
                   <BodyComponent {...componentData} />
