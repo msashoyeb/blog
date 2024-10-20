@@ -89,7 +89,7 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
         [...folders].map((folder) => [
           folder,
           defaultProcessedContent({
-            slug: joinSegments("blog", folder, "index") as FullSlug,
+            slug: joinSegments(folder, "index") as FullSlug,
             frontmatter: {
               title: `${i18n(cfg.locale).pages.folderContent.folder}: ${folder}`,
               tags: [],
@@ -106,7 +106,7 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
       }
 
       for (const folder of folders) {
-        const slug = joinSegments(folder, "index") as FullSlug
+        const slug = joinSegments("blog", folder, "index") as FullSlug
         const externalResources = pageResources(pathToRoot(slug), resources)
         const [tree, file] = folderDescriptions[folder]
         const componentData: QuartzComponentProps = {
