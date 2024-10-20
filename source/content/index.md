@@ -18,9 +18,7 @@ Welcome to my blog, where I share my journey in web development! I’m <strong><
 
 ### Connect with Me
 
-[![Facebook](https://img.icons8.com/ios-filled/50/000000/facebook-new.png)](https://www.facebook.com/showyeab.ahmed)  
-[![LinkedIn](https://img.icons8.com/ios-filled/50/000000/linkedin.png)](https://www.linkedin.com/in/msashoyeb/?originalSubdomain=bd)  
-[![GitHub](https://img.icons8.com/ios-filled/50/000000/github.png)](https://github.com/msashoyeb)  
+[![Facebook](https://img.icons8.com/ios-filled/25/000000/facebook-new.png)](https://www.facebook.com/showyeab.ahmed)  [![LinkedIn](https://img.icons8.com/ios-filled/25/000000/linkedin.png)](https://www.linkedin.com/in/msashoyeb/?originalSubdomain=bd)  [![GitHub](https://img.icons8.com/ios-filled/25/000000/github.png)](https://github.com/msashoyeb)  
 
 Feel free to connect with me on these platforms!
 
