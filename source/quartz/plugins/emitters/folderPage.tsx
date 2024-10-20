@@ -106,7 +106,7 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
       }
 
       for (const folder of folders) {
-        const slug = joinSegments("blog", folder, "index") as FullSlug
+        const slug = joinSegments(folder, "index") as FullSlug
         const externalResources = pageResources(pathToRoot(slug), resources)
         const [tree, file] = folderDescriptions[folder]
         const componentData: QuartzComponentProps = {
